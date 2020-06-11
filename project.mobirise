@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "sobremi.html",
     "theme": {
       "name": "therapym4",
       "title": "TherapyM4",
@@ -54,7 +54,7 @@
       }
     ],
     "imageResize": false,
-    "uniqCompNum": 177,
+    "uniqCompNum": 186,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-lm-1.png",
@@ -1224,7 +1224,7 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section group=\"Content\" class=\"content1\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Sub Title\" name=\"showsubTitle\">\n        <input type=\"checkbox\" title=\"Show Quote\" name=\"showText\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n\n            <div class=\"img-col col-12 md-pb col-md-6 align-center col-lg-4\">\n                <img src=\"@PROJECT_PATH@/assets/images/image08a.jpg\" alt=\"Mobirise\" title>\n\n            </div>\n\n\n            <div class=\"mbr-black col-md-6 col-lg-4\">\n\n                <div class=\"content align-left mbr-white\">\n                    <h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showsubTitle\">WELCOME NOTE</h4>\n                    <h3 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\"La relación más importante es con uno mismo\"<br></h3>\n                    <p class=\"mbr-text pb-3 mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">¿Por qué me hice terapeuta? Empecé por el mismo motivo que la mayoría de personas decidimos cambiar radicalmente: <b>pasé por una crisis personal y profesional</b>. Después de una ruptura sentimental y de estar perdida laboralmente, estaba a disgusto con mi vida y conmigo misma.\n<br>\n<br>No me avergüenza decirlo, ya que fue el detonante que me permitió dar un giro a mi vida laboral y emprender un viaje de crecimiento personal apasionante. Por eso ahora siento que puedo <b>acompañarte en tu propio camino y enseñarte todo lo que he aprendido</b>.\n<br>\n<br><b><i>MI PROPÓSITO ES AYUDARTE A MEJORAR TU SALUD Y CALIDAD DE VIDA.</i></b></p>\n                    <p class=\"mbr-text quote pb-3 mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".quote\">Me inicié en terapia Gestalt e investigué la relación entre baja autoestima y dependencia emocional en las relaciones de pareja. Aprendí Reiki, Par Biomagnético y EFT Tapping, técnicas que me permitieron comprender cómo afecta lo que pensamos y sentimos en nuestra salud. Actualmente las utilizo con mis clientes: permiten <b>mejorar la salud a nivel físico y psico-emocional, </b>son herramientas ideales para el<b> auto-conocimiento </b>y para <b>alcanzar objetivos concretos</b>.&nbsp;<br><br><b><i>SOY UNA INCANSABLE BUSCADORA DE SENTIDO Y ME ENTUSIASMA TRANSFORMAR LOS CONFLICTOS EN POSIBILIDADES.</i></b><br><br>Posteriormente estudié kinesiología, especializándome en su rama emocional. Para mí fue magnífico aprender a usarla para problemas como: estrés, ansiedad, miedos, inseguridades, etc. Esta herramienta te ayuda a <b>comprender el origen de tu malestar y te equilibra física, emocional y mentalmente</b>.<br></p>\n\n\n                </div>\n            </div>\n\n            <div class=\"mbr-black col-md-12 col-lg-4\">\n\n                <div class=\"content align-left mbr-white\">\n                    <p class=\"mbr-text pb-3 mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\"><br><br>Cursé un Master en Terapias Manuales en el que me formé&nbsp;en anatomía y fisiología, quiromasaje, shiatsu, drenaje linfático, masaje anticelulítico, reflexología podal, entre otras disciplinas. Comprobé de nuevo la relación que existe entre cuerpo, mente y emociones. <b>Tratando el cuerpo incidimos en las emociones y mente, y viceversa</b>.<br>\n<br>Mi interés por seguir aprendiendo me llevó a formarme en<a href=\"http://www.lanuevaterapia.com\" target=\"_blank\"> La Nueva Terapia®</a>&nbsp;(LNT®), terapia energética y cuántica. Es una de las herramientas que más utilizo con mis clientes debido a su<b> sencillez de aplicación, su gran efectividad y rapidez en resultados</b>. Trabajo tanto de forma presencial como a distancia, para sanar distintos tipos de dolores físicos  y emocionales. \n<br>\n<br>Recientemente he aprendido estética energética, otro descubrimiento extraordinario para mí, ya que esta técnica permite <b>moldear el cuerpo físico sin necesidad de cirugía ni ningún tipo de contacto físico</b>. Combina la sanación energética con el uso de cristales de cuarzo.<br><br><b><i>\"NINGÚN PROBLEMA PUEDE SER RESUELTO DESDE EL MISMO NIVEL DE CONCIENCIA EN EL QUE FUE CREADO\"</i></b><br><br>En mis sesiones también aplico conocimientos de Registros Akáshicos, Biodescodificación®, Nueva Medicina Germánica y Lógica Global Convergente. Esto me permite aplicar una <b>visión holística y global</b>, contemplando el ser humano como un \"todo\" y entendiendo que <b>la salud depende del equilibrio físico, emocional, mental y energético.</b><br><br>Te invito a seguir conociéndome, a abrirte a lo que comparto y a progresar junto a mí. Te agradezco el interés que estás mostrando por mi trabajo y experiencia; <b>¡estaré ensutiasmada de acompañarte en tu proceso de cambio!<br></b><br><br><br></p>\n\n                </div>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Content\" class=\"content1\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Sub Title\" name=\"showsubTitle\">\n        <input type=\"checkbox\" title=\"Show Quote\" name=\"showText\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n\n            <div class=\"img-col col-12 md-pb col-md-6 align-center col-lg-4\">\n                <img src=\"@PROJECT_PATH@/assets/images/image08a.jpg\" alt=\"Mobirise\" title>\n\n            </div>\n\n\n            <div class=\"mbr-black col-md-6 col-lg-4\">\n\n                <div class=\"content align-left mbr-white\">\n                    <h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showsubTitle\">WELCOME NOTE</h4>\n                    <h3 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\"La relación más importante es con uno mismo\"<br></h3>\n                    <p class=\"mbr-text pb-3 mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">¿Por qué me hice terapeuta? Empecé por el mismo motivo que la mayoría de personas decidimos cambiar radicalmente: <b>pasé por una crisis personal y profesional</b>. Después de una ruptura sentimental y de estar perdida laboralmente, estaba a disgusto con mi vida y conmigo misma.\n<br>\n<br>No me avergüenza decirlo, ya que fue el detonante que me permitió dar un giro a mi vida laboral y emprender un viaje de crecimiento personal apasionante. Por eso ahora siento que puedo <b>acompañarte en tu propio camino y enseñarte todo lo que he aprendido</b>.\n<br>\n<br><a href=\"programas.html\"><b><i>MI PROPÓSITO ES AYUDARTE A MEJORAR TU SALUD Y CALIDAD DE VIDA.</i></b></a></p>\n                    <p class=\"mbr-text quote pb-3 mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".quote\">Me inicié en terapia Gestalt e investigué la relación entre baja autoestima y dependencia emocional en las relaciones de pareja. Aprendí Reiki, Par Biomagnético y EFT Tapping, técnicas que me permitieron comprender cómo afecta lo que pensamos y sentimos en nuestra salud. Actualmente las utilizo con mis clientes: permiten <b>mejorar la salud a nivel físico y psico-emocional, </b>son herramientas ideales para el<b> auto-conocimiento </b>y para <b>alcanzar objetivos concretos</b>.&nbsp;<br><br><a href=\"programas.html\"><b><i>SOY UNA INCANSABLE BUSCADORA DE SENTIDO Y ME ENTUSIASMA TRANSFORMAR LOS CONFLICTOS EN POSIBILIDADES.</i></b></a><br><br>Posteriormente estudié kinesiología, especializándome en su rama emocional. Para mí fue magnífico aprender a usarla para problemas como: estrés, ansiedad, miedos, inseguridades, etc. Esta herramienta te ayuda a <b>comprender el origen de tu malestar y te equilibra física, emocional y mentalmente</b>.<br></p>\n\n\n                </div>\n            </div>\n\n            <div class=\"mbr-black col-md-12 col-lg-4\">\n\n                <div class=\"content align-left mbr-white\">\n                    <p class=\"mbr-text pb-3 mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\"><br>Cursé un Master en Terapias Manuales en el que me formé&nbsp;en anatomía y fisiología, quiromasaje, shiatsu, drenaje linfático, masaje anticelulítico, reflexología podal, entre otras disciplinas. Comprobé de nuevo la relación que existe entre cuerpo, mente y emociones. <b>Tratando el cuerpo incidimos en las emociones y mente, y viceversa</b>.<br>\n<br>Mi interés por seguir aprendiendo me llevó a formarme en<a href=\"http://www.lanuevaterapia.com\" target=\"_blank\"><b> La Nueva Terapia®</b></a><b>&nbsp;</b>(LNT®), terapia energética y cuántica. Es una de las herramientas que más utilizo con mis clientes debido a su<b> sencillez de aplicación, su gran efectividad y rapidez en resultados</b>. Trabajo tanto de forma presencial como a distancia, para sanar distintos tipos de dolores físicos  y emocionales. \n<br>\n<br>Recientemente he aprendido estética energética, otro descubrimiento extraordinario para mí, ya que esta técnica permite <b>moldear el cuerpo físico sin necesidad de cirugía ni ningún tipo de contacto físico</b>. Combina la sanación energética con el uso de cristales de cuarzo.<br><br><a href=\"programas.html\"><b><i>\"NINGÚN PROBLEMA PUEDE SER RESUELTO DESDE EL MISMO NIVEL DE CONCIENCIA EN EL QUE FUE CREADO\"</i></b></a><br><br>En mis sesiones también aplico conocimientos de Registros Akáshicos, Biodescodificación®, Nueva Medicina Germánica y Lógica Global Convergente. Esto me permite aplicar una <b>visión holística y global</b>, contemplando el ser humano como un \"todo\" y entendiendo que <b>la salud depende del equilibrio físico, emocional, mental y energético.</b><br><br><b>Pero en realidad esto va sobre ti</b>. Así que te invito a seguir conociéndonos, a abrirte a lo que comparto y a crecer junto a mí. Te agradezco el interés que estás mostrando por mi trabajo y experiencia; <b>¡estaré ensutiasmada de acompañarte en tu proceso de cambio!<br></b><br><br><br></p>\n\n                </div>\n            </div>\n\n        </div>\n    </div>\n</section>",
           "_cid": "rZU88C6wlC",
           "_anchor": "content1-17",
           "_PHPplaceholders": [],
@@ -4914,13 +4914,161 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section group=\"Content\" class=\"content1\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Sub Title\" name=\"showsubTitle\">\n        <input type=\"checkbox\" title=\"Show Quote\" name=\"showText\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n\n            <div class=\"img-col col-12 md-pb col-md-6 align-center col-lg-4\">\n                <img src=\"@PROJECT_PATH@/assets/images/image17.jpg\" alt=\"Mobirise\" title>\n\n            </div>\n\n\n            <div class=\"mbr-black col-md-6 col-lg-4\">\n\n                <div class=\"content align-left mbr-white\">\n                    <h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showsubTitle\">WELCOME NOTE</h4>\n                    <h3 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Programa Re-enamórate de ti</h3>\n                    <p class=\"mbr-text pb-3 mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Enfocado a aquellas personas que están viviendo un momento en que se sienten desvalorizadas, inseguras de sí mismas y con baja autoestima. Tras una ruptura sentimental, incertidumbre laboral, crisis personal, etc. <br></p>\n                    <p class=\"mbr-text quote pb-3 mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".quote\">En este programa de 8 semanas de duración nos centraremos en los siguientes aspectos: \n<br>\n<br>- Entrevista personal para conocer tu situación y definir objetivos concretos. \n<br>\n<br>- Ejercicios prácticos de auto-conocimiento profundo. Descubrirás tu eneatipo, cuáles son tus valores, características de tu personalidad desde la Medicina Tradicional China y test de personalidad.</p>\n\n\n                </div>\n            </div>\n\n            <div class=\"mbr-black col-md-12 col-lg-4\">\n\n                <div class=\"content align-left mbr-white\">\n                    <p class=\"mbr-text pb-3 mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">- Profundizaremos en las heridas emocionales de tu pasado y veremos cómo desbloquearlas.\n<br>\n<br>- Desarrollaremos tu Ikigai o propósito de vida para aclarar tu camino laboral. Veremos de qué manera puedes desarrollar tus dones y talentos. \n<br>\n<br>- Aprenderás técnicas para tu auto-gestión emocional, útiles para usarlas ante cualquier tipo de incertidumbre o conflicto. Brain Gym, EFT tapping y puntos neuroemocionales como herramientas para tu día a día. \n<br>\n<br>- Recibirás sesiones a distancia de radiestesia, LNT® y estética energética para atender a tu cuerpo físico y energético. \n<br>\n<br>- Pasado un mes desde la última sesión, haremos seguimiento para reforzar algún aspecto o resolver posibles dudas.<br></p>\n\n                </div>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Content\" class=\"content1\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Sub Title\" name=\"showsubTitle\">\n        <input type=\"checkbox\" title=\"Show Quote\" name=\"showText\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n\n            <div class=\"img-col col-12 md-pb col-md-6 align-center col-lg-4\">\n                <img src=\"@PROJECT_PATH@/assets/images/image17.jpg\" alt=\"Mobirise\" title>\n\n            </div>\n\n\n            <div class=\"mbr-black col-md-6 col-lg-4\">\n\n                <div class=\"content align-left mbr-white\">\n                    <h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showsubTitle\">WELCOME NOTE</h4>\n                    <h3 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Programa Re-enamórate de ti</h3>\n                    <p class=\"mbr-text pb-3 mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Enfocado a aquellas personas que están viviendo un momento en que se sienten desvalorizadas, inseguras de sí mismas y con baja autoestima. Tras una ruptura sentimental, incertidumbre laboral, crisis personal, etc. <br></p>\n                    <p class=\"mbr-text quote pb-3 mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".quote\">En este programa de 8 semanas de duración nos centraremos en los siguientes aspectos: \n<br>\n<br>- Entrevista personal para conocer tu situación y definir objetivos concretos. \n<br>\n<br>- Ejercicios prácticos de auto-conocimiento profundo. Descubrirás tu eneatipo, cuáles son tus valores, características de tu personalidad desde la Medicina Tradicional China y test de personalidad.</p>\n\n\n                </div>\n            </div>\n\n            <div class=\"mbr-black col-md-12 col-lg-4\">\n\n                <div class=\"content align-left mbr-white\">\n                    <p class=\"mbr-text pb-3 mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">- Profundizaremos en las heridas emocionales de tu pasado y veremos cómo desbloquearlas.\n<br>\n<br>- Desarrollaremos tu Ikigai o propósito de vida para aclarar tu camino laboral. Veremos de qué manera puedes desarrollar tus dones y talentos. \n<br>\n<br>- Aprenderás técnicas para tu auto-gestión emocional, útiles para usarlas ante cualquier tipo de incertidumbre o conflicto. Brain Gym, EFT tapping y puntos neuroemocionales como herramientas para tu día a día. \n<br>\n<br>- Recibirás sesiones a distancia de radiestesia, LNT® y estética energética para atender a tu cuerpo físico y energético. \n<br>\n<br>- Pasado un mes desde la última sesión, haremos seguimiento para reforzar algún aspecto o resolver posibles dudas.<br></p>\n\n                </div>\n            </div>\n\n        </div>\n    </div>\n</section>",
           "_cid": "s05UTbhqSD",
           "_anchor": "content1-2n",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card-wrapper": {
+              "z-index": "3",
+              ".mbr-section-title": {
+                "letter-spacing": "1px",
+                "transition": "all 2.5s cubic-bezier(0, 0.74, 0.52, 1.2)"
+              }
+            },
+            "&:hover": {
+              ".mbr-section-title": {
+                "letter-spacing": "10px"
+              }
+            },
+            ".full-link": {
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "width": "100%",
+              "height": "100%",
+              "font-size": "0",
+              "z-index": "2"
+            },
+            ".popup-btn": {
+              "&.card-wrapper": {
+                "z-index": "1 !important"
+              }
+            },
+            "H2": {
+              "color": "#bb1155"
+            }
+          },
+          "_name": "extFeatures66",
+          "_customHTML": "<section group=\"Features\" class=\"extFeatures popup-btn-cards\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax,'mbr-fullscreen': fullScreen}\" plugins=\"mbr-popup-btns\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" condition=\"fullScreen\">\n        <input type=\"text\" title=\"Link\" name=\"linkValue\" value=\"http://www.mobirise.com\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Min Height\" name=\"blockHeight\" min=\"1\" max=\"25\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ff0000\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <a class=\"full-link\" href=\"{{linkValue}}\"></a>\n    <div class=\"container-fluid card-wrapper\">\n        <div class=\"row justify-content-center align-items-center\" mbr-style=\"{'min-height':blockHeight + 'vw'}\">\n             <div class=\"col-xl-10 col-lg-10 col-md-12 text-block\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-section-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-2\">Con este programa podrás conseguir:</h2>                 \n             </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s1AFHodKdr",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "extFeatures66-50"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-iconfont": {
+              "font-size": "3rem",
+              "color": "@iconColor",
+              "margin-right": "1.5rem",
+              "width": "100px",
+              "height": "100px",
+              "min-width": "100px",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "margin": "auto"
+            },
+            "@media (min-width: 1400px)": {
+              ".card-wrapper": {
+                "padding": "0 2rem"
+              }
+            },
+            ".card": {
+              "border-radius": "0",
+              "width": "100%"
+            },
+            "& when (@cardsAmount = '1')": {
+              ".card1": {
+                "border-right": "0px solid @iconbgColor"
+              },
+              ".card-wrapper": {
+                "padding": "0"
+              }
+            },
+            "& when (@cardsAmount = '2')": {
+              ".card1": {
+                "border-right": "1px solid @iconbgColor"
+              }
+            },
+            "& when (@cardsAmount = '3')": {
+              ".card2": {
+                "border-right": "1px solid @iconbgColor"
+              },
+              ".card1": {
+                "border-right": "1px solid @iconbgColor"
+              }
+            },
+            "& when (@cardsAmount = '4')": {
+              ".card2": {
+                "border-right": "1px solid @iconbgColor"
+              },
+              ".card3": {
+                "border-right": "1px solid @iconbgColor"
+              },
+              ".card1": {
+                "border-right": "1px solid @iconbgColor"
+              }
+            },
+            "h4": {
+              "margin": "0"
+            },
+            ".card-text": {
+              "color": "#465052",
+              "text-align": "center"
+            },
+            ".mbr-text": {
+              "color": "#200960"
+            },
+            ".card-title": {
+              "color": "#000000",
+              "text-align": "center"
+            },
+            "@media (max-width: 991px)": {
+              ".card": {
+                "border": "0px",
+                "margin-bottom": "2rem"
+              }
+            }
+          },
+          "_name": "features7",
+          "_customHTML": "<section class=\"features7\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icon\" name=\"showIcon\" checked>\n        <input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#000000\" selected condition=\"showIcon\">\n        <input type=\"color\" title=\"Border Color\" name=\"iconbgColor\" value=\"#f6f3ee\" selected>\n\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n\n\n\n\n        <div class=\"row justify-content-center\">\n            <div class=\"card card1 p-3 col-12 col-md-6 col-lg-3\">\n                <div class=\"card-wrapper\">\n\n\n                    <span mbr-icon class=\"mbr-iconfont sli-emotsmile\" mbr-if=\"showIcon\"></span>\n                    <div class=\"card-box\">\n                        <h5 class=\"card-title mbr-semibold pb-3 mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Seguridad en ti mismo</h5>\n                        <p class=\"card-text mbr-regular mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Sentirte mejor contigo mismo y mayor autoestima. Te sentirás orgulloso de ser tú mismo y mostrarte ante los demás tal cual eres.</p>\n                    </div>\n                </div>\n            </div>\n\n\n\n            <div class=\"card card2 p-3 col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 1\">\n\n\n                <div class=\"card-wrapper\">\n\n\n                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-users mobi-mbri\" mbr-if=\"showIcon\"></span>\n                    <div class=\"card-box\">\n                        <h5 class=\"card-title mbr-semibold pb-3 mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Mejorar tu comunicación</h5>\n                        <p class=\"card-text mbr-regular mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Aprenderás a comunicarte mejor con los demás, de forma clara y asertiva.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card card3 p-3 col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n\n\n                    <span mbr-icon class=\"mbr-iconfont mbrib-search\" mbr-if=\"showIcon\"></span>\n                    <div class=\"card-box\">\n                        <h5 class=\"card-title mbr-semibold pb-3 mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Auto-conocimiento</h5>\n                        <p class=\"card-text mbr-regular mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Te conocerás mejor a ti mismo y eso te permitirá tomar mejores decisiones y dirigir tu vida como deseas.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card card4 p-3 col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n\n\n                    <span mbr-icon class=\"mbr-iconfont mbri-like\" mbr-if=\"showIcon\"></span>\n                    <div class=\"card-box\">\n                        <h5 class=\"card-title mbr-semibold pb-3 mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Gestionar tus emociones</h5>\n                        <p class=\"card-text mbr-regular mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Lograrás gestionar tus propias emociones, lo que te permitirá resolver conflictos. </p>\n                    </div>\n                </div>\n            </div>\n\n\n        </div>\n    </div>\n</section>",
+          "_cid": "s1AAh3wG4S",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "features7-4y"
         },
         {
           "alias": "mobirise4-blocks/components",

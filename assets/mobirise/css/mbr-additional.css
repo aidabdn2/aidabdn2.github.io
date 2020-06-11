@@ -1483,7 +1483,7 @@ a {
 }
 .cid-rZU88C6wlC {
   padding-top: 150px;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 @media (min-width: 1500px) {
@@ -4587,7 +4587,7 @@ a {
 }
 .cid-s05UTbhqSD {
   padding-top: 135px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
 @media (min-width: 1500px) {
@@ -4628,6 +4628,91 @@ a {
 }
 .cid-s05UTbhqSD .mbr-text {
   color: #000000;
+}
+.cid-s1AFHodKdr {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-s1AFHodKdr .card-wrapper {
+  z-index: 3;
+}
+.cid-s1AFHodKdr .card-wrapper .mbr-section-title {
+  letter-spacing: 1px;
+  transition: all 2.5s cubic-bezier(0, 0.74, 0.52, 1.2);
+}
+.cid-s1AFHodKdr:hover .mbr-section-title {
+  letter-spacing: 10px;
+}
+.cid-s1AFHodKdr .full-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  z-index: 2;
+}
+.cid-s1AFHodKdr .popup-btn.card-wrapper {
+  z-index: 1 !important;
+}
+.cid-s1AFHodKdr H2 {
+  color: #bb1155;
+}
+.cid-s1AAh3wG4S {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-s1AAh3wG4S .mbr-iconfont {
+  font-size: 3rem;
+  color: #000000;
+  margin-right: 1.5rem;
+  width: 100px;
+  height: 100px;
+  min-width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+@media (min-width: 1400px) {
+  .cid-s1AAh3wG4S .card-wrapper {
+    padding: 0 2rem;
+  }
+}
+.cid-s1AAh3wG4S .card {
+  border-radius: 0;
+  width: 100%;
+}
+.cid-s1AAh3wG4S .card2 {
+  border-right: 1px solid #f6f3ee;
+}
+.cid-s1AAh3wG4S .card3 {
+  border-right: 1px solid #f6f3ee;
+}
+.cid-s1AAh3wG4S .card1 {
+  border-right: 1px solid #f6f3ee;
+}
+.cid-s1AAh3wG4S h4 {
+  margin: 0;
+}
+.cid-s1AAh3wG4S .card-text {
+  color: #465052;
+  text-align: center;
+}
+.cid-s1AAh3wG4S .mbr-text {
+  color: #200960;
+}
+.cid-s1AAh3wG4S .card-title {
+  color: #000000;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .cid-s1AAh3wG4S .card {
+    border: 0px;
+    margin-bottom: 2rem;
+  }
 }
 .cid-s0RDfa84k3 {
   padding-top: 45px;
