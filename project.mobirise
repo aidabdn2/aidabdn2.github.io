@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "sobremi.html",
+    "currentPage": "articulo05.html",
     "theme": {
       "name": "therapym4",
       "title": "TherapyM4",
@@ -29,13 +29,13 @@
       "titlePreset": "Personal Growth",
       "nameSelectPreset": "personal",
       "additionalSetColors": [
+        "#34a932",
         "#d999a9",
         "#d9a485",
         "#d7977b",
         "#b1706a",
         "#d69e09",
-        "#facc38",
-        "#46c4bb"
+        "#facc38"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -54,7 +54,7 @@
       }
     ],
     "imageResize": false,
-    "uniqCompNum": 205,
+    "uniqCompNum": 218,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-lm-1.png",
@@ -3102,13 +3102,131 @@
             }
           },
           "_name": "extContent6",
-          "_customHTML": "<section class=\"extСontent\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Number\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Box Color\" name=\"boxbg\" value=\"#ffffff\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efeeee\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#282124\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-12 img-col\">\n                <img src=\"@PROJECT_PATH@/assets/images/image13.jpeg\" alt=\"Mobirise\" title>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-success\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>READ MORE</a></div>\n            </div>\n            <div class=\"col-lg-5 title-col align-left\" mbr-if=\"showSubTitle || showTitle \">\n                <div class=\"title-wrap\">\n                    <h3 class=\"number mbr-medium mbr-black pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">02</h3>\n                    <h2 class=\"mbr-section-title mbr-semibold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">¿Estás enamorado?</h2>\n                </div>\n            </div>\n\n            <div class=\"col-lg-7 text-col align-left\">\n                <p class=\"mbr-text mbr-black mbr-regular mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">¿Qué significa exactamente estar enamorado? Muchos pensamos que lo estamos cuando notamos “mariposas en el estómago”, encontramos nuestra media naranja, o cuando sentimos que queremos a alguien…Pero, ¿siempre es realmente así?\n<br>\n<br>Solemos confundir el estar enamorados con cubrir carencias emocionales, apegos, necesidades o deseos. De esta forma, nos puede costar distinguir el amor verdadero e incondicional de lo que no lo es.\n<br>\n<br>Ya sea consciente o inconscientemente a veces buscamos que la otra persona nos cubra una necesidad, éstas son algunas de las más habituales:\n<br>\n<br>- <b>Afectiva</b>: si nos sentimos faltos de cariño y arrastramos heridas emocionales del pasado. En estos casos buscamos alguien que nos proporcione afecto y mimos como “alimento” emocional, ofreciéndonos una aparente solución a nuestra carencia.<br><br>- <b>Económica</b>: podemos andar a la caza de una pareja que nos ayude a mantenernos económicamente cuando no podemos o no queremos ser autosuficientes.<br><br>- <b>Valoración y aprobación</b>: pensamos que necesitamos alguien que nos alabe para así sentirnos bien con nosotros mismos. Nuestra falta de autoestima y amor propio incide en querer buscar otra persona que nos de aquello que nosotros mismos no nos proporcionamos.<br><br>- <b>Posesión y conquista</b>: creer que el otro nos pertenece o tratarlo como un objeto de deseo. En mayores proporciones puede derivar en maltrato físico o psicológico.<br><br>- <b>Plenitud</b>: querer encontrar la famosa “media naranja” que nos complete. Suponer que no somos naranjas completas provoca que busquemos llenar nuestro vacío con todo tipo de relaciones.<br><br>- <b>Compañía</b>: nos desagrada sentirnos solos y en el vínculo con el otro deseamos eliminar esa sensación.<br>\n<br>Ahora que hemos visto algunos aspectos de lo que sería  NO estar enamorado…¿para ti qué significaría estarlo?<br></p>\n\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"extСontent\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Number\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Box Color\" name=\"boxbg\" value=\"#ffffff\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efeeee\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#282124\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-12 img-col\">\n                <img src=\"@PROJECT_PATH@/assets/images/image13.jpeg\" alt=\"Mobirise\" title>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-success\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>READ MORE</a></div>\n            </div>\n            <div class=\"col-lg-5 title-col align-left\" mbr-if=\"showSubTitle || showTitle \">\n                <div class=\"title-wrap\">\n                    <h3 class=\"number mbr-medium mbr-black pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">01</h3>\n                    <h2 class=\"mbr-section-title mbr-semibold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">¿Estás enamorado?</h2>\n                </div>\n            </div>\n\n            <div class=\"col-lg-7 text-col align-left\">\n                <p class=\"mbr-text mbr-black mbr-regular mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">¿Qué significa exactamente estar enamorado? Muchos pensamos que lo estamos cuando notamos “mariposas en el estómago”, encontramos nuestra media naranja, o cuando sentimos que queremos a alguien…Pero, ¿siempre es realmente así?\n<br>\n<br>Solemos confundir el estar enamorados con cubrir carencias emocionales, apegos, necesidades o deseos. De esta forma, nos puede costar distinguir el amor verdadero e incondicional de lo que no lo es.\n<br>\n<br>Ya sea consciente o inconscientemente a veces buscamos que la otra persona nos cubra una necesidad, éstas son algunas de las más habituales:\n<br>\n<br>- <b>Afectiva</b>: si nos sentimos faltos de cariño y arrastramos heridas emocionales del pasado. En estos casos buscamos alguien que nos proporcione afecto y mimos como “alimento” emocional, ofreciéndonos una aparente solución a nuestra carencia.<br><br>- <b>Económica</b>: podemos andar a la caza de una pareja que nos ayude a mantenernos económicamente cuando no podemos o no queremos ser autosuficientes.<br><br>- <b>Valoración y aprobación</b>: pensamos que necesitamos alguien que nos alabe para así sentirnos bien con nosotros mismos. Nuestra falta de autoestima y amor propio incide en querer buscar otra persona que nos de aquello que nosotros mismos no nos proporcionamos.<br><br>- <b>Posesión y conquista</b>: creer que el otro nos pertenece o tratarlo como un objeto de deseo. En mayores proporciones puede derivar en maltrato físico o psicológico.<br><br>- <b>Plenitud</b>: querer encontrar la famosa “media naranja” que nos complete. Suponer que no somos naranjas completas provoca que busquemos llenar nuestro vacío con todo tipo de relaciones.<br><br>- <b>Compañía</b>: nos desagrada sentirnos solos y en el vínculo con el otro deseamos eliminar esa sensación.<br>\n<br>Ahora que hemos visto algunos aspectos de lo que sería  NO estar enamorado…¿para ti qué significaría estarlo?<br></p>\n\n            </div>\n\n        </div>\n    </div>\n</section>",
           "_cid": "rZZHQqD8WF",
           "_anchor": "extContent6-1i",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".icons-block .mbr-iconfont": {
+              "font-size": "1.5rem",
+              "color": "@iconsColor",
+              "opacity": ".5",
+              "&:hover": {
+                "opacity": "1"
+              }
+            },
+            ".links-block ul li": {
+              "margin": "0 1rem"
+            },
+            ".icons-block ul li": {
+              "margin": "0 .5rem"
+            },
+            ".links-block ul, .icons-block ul": {
+              "margin-bottom": "1.5rem"
+            }
+          },
+          "_name": "extFooter10",
+          "_customHTML": "<section class=\"extFooter\" group=\"Additional Blocks\" global=\"\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline=\"\" type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input inline=\"\" type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showTitle\" checked=\"\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#c1c1c1\">\n        <input type=\"color\" title=\"Icons Hover Color\" name=\"iconshoverColor\" value=\"#767676\">\n        <input type=\"color\" title=\"Icons BG Color\" name=\"iconsbgColor\" value=\"#efeeee\">\n        <input inline=\"\" type=\"range\" title=\"Icons\" name=\"iconsCount\" min=\"1\" max=\"8\" step=\"1\" value=\"5\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#efeeee\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&amp;&amp;bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"links-block col-sm-12 col-md-10 align-center pb-3\" mbr-if=\"showLinks\">\n                <ul class=\"list-inline\" mbr-list=\"\" mbr-list-grow=\"linksCount\">\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Home</a>\n                    </li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Menus</a>\n                    </li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Our Story</a>\n                    </li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Chef John Smith</a>\n                    </li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Contacts</a>\n                    </li>\n                </ul>\n            </div>\n            <div class=\"icons-block col-sm-12 col-md-10 align-center\" mbr-if=\"showIcons\">\n                <ul class=\"list-inline\">\n                    <li class=\"list-inline-item\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-facebook socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 1\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-twitter socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 2\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-linkedin socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 3\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-youtube socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 4\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-rss socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 5\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-googleplus socicon\"></span>\n                        </a>\n                    </li>\n                </ul>\n            </div>\n            <div class=\"logo-section col-sm-12 col-lg-4 align-center\" mbr-if=\"showLogo\">\n                <a href=\"#\"><img src=\"../_images/logo1.png\" height=\"128\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\"></a>\n            </div>\n        </div>\n    </div>\n</section>\n",
+          "_cid": "s1CHvyLllm",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": false,
+          "_params": {},
+          "_anchor": "extFooter10-5t"
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".row": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".text-black": {
+              "font-weight": "800",
+              "letter-spacing": "0.1em"
+            },
+            ".btn": {
+              "margin-bottom": "2rem"
+            },
+            ".mbr-text": {
+              "color": "#444",
+              "font-weight": "600",
+              "letter-spacing": "0.1em"
+            },
+            ".social-list": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "display": "flex",
+              "padding-left": "0",
+              "margin-bottom": "25px",
+              "list-style": "none",
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              ".mbr-iconfont-social": {
+                "font-size": "2rem",
+                "color": "black"
+              },
+              ".soc-item": {
+                "margin": "0 .5rem"
+              },
+              "a": {
+                "margin": "0",
+                "-webkit-transition": ".2s linear",
+                "transition": ".2s linear",
+                "&:hover": {
+                  "opacity": ".4"
+                }
+              },
+              "@media (max-width: 767px)": {
+                "-webkit-justify-content": "center",
+                "justify-content": "center"
+              }
+            },
+            "@media (max-width: 575px)": {
+              ".mbr-text": {
+                "text-align": "center",
+                "margin-bottom": "2rem"
+              }
+            },
+            ".links": {
+              "color": "#232323",
+              "text-align": "center"
+            }
+          },
+          "_name": "extFooter5",
+          "_customHTML": "<section class=\"extFooter\" group=\"Additional Blocks\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Button\" name=\"showButton\">\n        \n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n      \n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f9f295\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"social-list\" mbr-if=\"iconsCount > 0\">\n                <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                    <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                        <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                    </a>\n                </div>\n                <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                    <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                        <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                    </a>\n                </div>\n                <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                    <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                        <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\"></span>\n                    </a>\n                </div>\n                <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                    <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                        <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-whatsapp socicon\"></span>\n                    </a>\n                </div>\n               <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                    <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                        <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                    </a>\n                </div>\n                <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                    <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                        <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                    </a>\n                </div>\n            </div>\n        </div>\n        \n        <div class=\"row\">        \n            <div class=\"col-sm-8\">\n                <div mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"mbr-section-btn text-center\" mbr-if=\"showButton\">\n                    <a href type=\"submit\" class=\"btn btn-warning\">PURCHASE NOW</a>\n                </div>\n                <p class=\"mbr-text links mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".links\">COMPARTE EN TUS REDES SOCIALES</p>\n            </div>\n       </div>\n    </div>\n</section>",
+          "_cid": "s1CHuj5YGT",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "extFooter5-5s"
         },
         {
           "alias": "mobirise4-blocks/components",
@@ -3243,7 +3361,7 @@
             }
           },
           "_name": "extForm11",
-          "_customHTML": "<section class=\"extForm\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" checked condition=\"showSubtitle\">\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#ffffff\" condition=\"showUnderline&&showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Form Title\" name=\"showFormTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Form Subtitle\" name=\"showFormSubtitle\">\n        <input type=\"color\" title=\"Form Head BG Color\" name=\"headBg\" value=\"#efefef\" condition=\"showFormTitle || showFormSubtitle\">\n        <input type=\"color\" title=\"Labels Color\" name=\"labelsColor\" value=\"#000000\">\n        <input type=\"color\" title=\"Input BG Color\" name=\"inputBg\" value=\"#efefef\">\n        <input type=\"color\" title=\"Input Text Color\" name=\"inputTextColor\" value=\"#cccccc\">\n        <input type=\"color\" title=\"Form BG Color\" name=\"formBg\" value=\"#ffffff\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/image40.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#333333\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=2jqUN6d6ZyM\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#635a51\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h3 class=\"mbr-section-subtitle main-subtitle mbr-fonts-style align-center mbr-lighter mbr-white\" mbr-class=\"{'pb-3': !showUnderline}\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".main-subtitle, .underline\">\n            HOTEL LUXURY\n        </h3>\n        <div class=\"underline align-center pb-3\" mbr-if=\"showUnderline&&showSubtitle\">\n           <div class=\"line\"></div>\n        </div>\n        <h2 class=\"mbr-section-title main-title mbr-fonts-style align-center pb-5 mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".main-title\">\n            Contact Us\n        </h2>\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-8 col-lg-6 form-wrapper\">            \n                <div class=\"form-head\" mbr-if=\"showFormTitle || showFormSubtitle\">\n                    <h3 class=\"mbr-section-subtitle form-subtitle mbr-fonts-style align-center\" mbr-class=\"{'pb-3': showFormTitle}\" mbr-theme-style=\"display-4\" mbr-if=\"showFormSubtitle\" data-app-selector=\".form-subtitle\">\n                        CONTACT FORM\n                    </h3>\n                    <h2 class=\"mbr-section-title form-title mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showFormTitle\" data-app-selector=\".form-title\">Deja tu comentario</h2>\n                </div>\n                <div class=\"form1\" mbr-form>\n                    <!---Formbuilder Form--->\n                    <form action=\"aidabdn@gmail.com\" name=\"Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\">\n                        <div class=\"row\">\n                            <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">¡Gracias por dejar tu comentario!</div>\n                            <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n                            </div>\n                        </div>\n                        <div class=\"dragArea row\">\n                            <div class=\"col-md-12  form-group \" data-for=\"firstname\">\n                                <label mbr-text mbr-theme-style=\"display-7\" for=\"firstname\" class=\"form-control-label mbr-fonts-style mbr-lighter\">Nombre</label>\n                                <input type=\"text\" name=\"firstname\" data-form-field=\"First Name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\">\n                            </div>\n                            <div class=\"col-md-12  form-group \" data-for=\"lastname\" hidden=\"hidden\">\n                                <label mbr-text mbr-theme-style=\"display-7\" for=\"lastname\" class=\"form-control-label mbr-fonts-style mbr-lighter\" hidden=\"hidden\">Last Name</label>\n                                <input type=\"text\" name=\"lastname\" data-form-field=\"Last Name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" hidden=\"hidden\">\n                            </div>\n                            <div data-for=\"email\" class=\"col-md-12  form-group \">\n                                <label mbr-text mbr-theme-style=\"display-7\" for=\"email\" class=\"form-control-label mbr-fonts-style mbr-lighter\">E-Mail</label>\n                                <input type=\"email\" name=\"email\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\">\n                            </div>\n                            <div data-for=\"phone\" class=\"col-md-12  form-group \" hidden=\"hidden\">\n                                <label mbr-text mbr-theme-style=\"display-7\" for=\"phone\" class=\"form-control-label mbr-fonts-style mbr-lighter\" hidden=\"hidden\">Phone</label>\n                                <input type=\"tel\" name=\"phone\" data-form-field=\"Phone\" mbr-theme-style=\"display-7\" class=\"form-control\" hidden=\"hidden\">\n                            </div>\n                            <div data-for=\"message\" class=\"col-md-12  form-group \">\n                                <label mbr-text mbr-theme-style=\"display-7\" for=\"message\" class=\"form-control-label mbr-fonts-style mbr-lighter\">Texto</label>\n                                <textarea name=\"message\" data-form-field=\"Message\" mbr-theme-style=\"display-7\" class=\"form-control\"></textarea>\n                            </div>\n                            <div class=\"col-md-12  input-group-btn \" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\"><a type=\"submit\" class=\"btn btn-lg btn-form btn-primary\" data-app-placeholder=\"Type Text\">ENVIAR</a></div>\n                        </div>\n                    </form><!---Formbuilder Form--->\n                </div>\n            </div>\n        </div>\n   </div>\n</section>",
+          "_customHTML": "<section class=\"extForm\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" checked condition=\"showSubtitle\">\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#ffffff\" condition=\"showUnderline&&showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Form Title\" name=\"showFormTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Form Subtitle\" name=\"showFormSubtitle\">\n        <input type=\"color\" title=\"Form Head BG Color\" name=\"headBg\" value=\"#efefef\" condition=\"showFormTitle || showFormSubtitle\">\n        <input type=\"color\" title=\"Labels Color\" name=\"labelsColor\" value=\"#000000\">\n        <input type=\"color\" title=\"Input BG Color\" name=\"inputBg\" value=\"#efefef\">\n        <input type=\"color\" title=\"Input Text Color\" name=\"inputTextColor\" value=\"#cccccc\">\n        <input type=\"color\" title=\"Form BG Color\" name=\"formBg\" value=\"#ffffff\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/image40.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#333333\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=2jqUN6d6ZyM\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h3 class=\"mbr-section-subtitle main-subtitle mbr-fonts-style align-center mbr-lighter mbr-white\" mbr-class=\"{'pb-3': !showUnderline}\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".main-subtitle, .underline\">\n            HOTEL LUXURY\n        </h3>\n        <div class=\"underline align-center pb-3\" mbr-if=\"showUnderline&&showSubtitle\">\n           <div class=\"line\"></div>\n        </div>\n        <h2 class=\"mbr-section-title main-title mbr-fonts-style align-center pb-5 mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".main-title\">\n            Contact Us\n        </h2>\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-8 col-lg-6 form-wrapper\">            \n                <div class=\"form-head\" mbr-if=\"showFormTitle || showFormSubtitle\">\n                    <h3 class=\"mbr-section-subtitle form-subtitle mbr-fonts-style align-center\" mbr-class=\"{'pb-3': showFormTitle}\" mbr-theme-style=\"display-4\" mbr-if=\"showFormSubtitle\" data-app-selector=\".form-subtitle\">\n                        CONTACT FORM\n                    </h3>\n                    <h2 class=\"mbr-section-title form-title mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showFormTitle\" data-app-selector=\".form-title\">Deja tu comentario</h2>\n                </div>\n                <div class=\"form1\" mbr-form>\n                    <!---Formbuilder Form--->\n                    <form action=\"aidabdn@gmail.com\" name=\"Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\">\n                        <div class=\"row\">\n                            <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">¡Gracias por dejar tu comentario!</div>\n                            <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n                            </div>\n                        </div>\n                        <div class=\"dragArea row\">\n                            <div class=\"col-md-12  form-group \" data-for=\"firstname\">\n                                <label mbr-text mbr-theme-style=\"display-7\" for=\"firstname\" class=\"form-control-label mbr-fonts-style mbr-lighter\">Nombre</label>\n                                <input type=\"text\" name=\"firstname\" data-form-field=\"First Name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\">\n                            </div>\n                            <div class=\"col-md-12  form-group \" data-for=\"lastname\" hidden=\"hidden\">\n                                <label mbr-text mbr-theme-style=\"display-7\" for=\"lastname\" class=\"form-control-label mbr-fonts-style mbr-lighter\" hidden=\"hidden\">Last Name</label>\n                                <input type=\"text\" name=\"lastname\" data-form-field=\"Last Name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" hidden=\"hidden\">\n                            </div>\n                            <div data-for=\"email\" class=\"col-md-12  form-group \">\n                                <label mbr-text mbr-theme-style=\"display-7\" for=\"email\" class=\"form-control-label mbr-fonts-style mbr-lighter\">E-Mail</label>\n                                <input type=\"email\" name=\"email\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\">\n                            </div>\n                            <div data-for=\"phone\" class=\"col-md-12  form-group \" hidden=\"hidden\">\n                                <label mbr-text mbr-theme-style=\"display-7\" for=\"phone\" class=\"form-control-label mbr-fonts-style mbr-lighter\" hidden=\"hidden\">Phone</label>\n                                <input type=\"tel\" name=\"phone\" data-form-field=\"Phone\" mbr-theme-style=\"display-7\" class=\"form-control\" hidden=\"hidden\">\n                            </div>\n                            <div data-for=\"message\" class=\"col-md-12  form-group \">\n                                <label mbr-text mbr-theme-style=\"display-7\" for=\"message\" class=\"form-control-label mbr-fonts-style mbr-lighter\">Texto</label>\n                                <textarea name=\"message\" data-form-field=\"Message\" mbr-theme-style=\"display-7\" class=\"form-control\"></textarea>\n                            </div>\n                            <div class=\"col-md-12  input-group-btn \" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\"><a type=\"submit\" class=\"btn btn-lg btn-form btn-primary\" data-app-placeholder=\"Type Text\">ENVIAR</a></div>\n                        </div>\n                    </form><!---Formbuilder Form--->\n                </div>\n            </div>\n        </div>\n   </div>\n</section>",
           "_cid": "s1pHgjI5tL",
           "_anchor": "extForm11-4s",
           "_protectedParams": [],
@@ -3819,9 +3937,131 @@
             }
           },
           "_name": "extContent6",
-          "_customHTML": "<section class=\"extСontent\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Number\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Box Color\" name=\"boxbg\" value=\"#ffffff\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efeeee\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#282124\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-12 img-col\">\n                <img src=\"@PROJECT_PATH@/assets/images/image14.jpg\" alt=\"Mobirise\" title>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-success\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>READ MORE</a></div>\n            </div>\n            <div class=\"col-lg-5 title-col align-left\" mbr-if=\"showSubTitle || showTitle \">\n                <div class=\"title-wrap\">\n                    <h3 class=\"number mbr-medium mbr-black pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">01</h3>\n                    <h2 class=\"mbr-section-title mbr-semibold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">El amor de tu vida</h2>\n                </div>\n            </div>\n\n            <div class=\"col-lg-7 text-col align-left\">\n                <p class=\"mbr-text mbr-black mbr-regular mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">¿Quieres conocer el amor de tu vida? ¿La persona perfecta para ti, que te brindará su amor incondicional para siempre? ¿Alguien que te admirará, que se sentirá orgulloso de ti y te amará con todas sus fuerzas? Pues bien, esa persona eres tú.\n<br>\n<br><b>Nadie en el mundo puede quererte más que tu a ti mismo.</b> En el caso de no ser así, seguramente experimentes en tu vida situaciones dolorosas derivadas de la falta de autoestima, como por ejemplo creer que eres inferior al resto o a alguien en concreto, permitir a los demás que no te respeten, no poner límites cuando te sientes lastimado, y un sinfín de problemas más que suelen suceder si no nos damos cuenta de la importancia de tener una adecuada autoestima.\n<br>\n<br><b>Si no empezamos por querernos más a nosotros mismos, es imposible que tengamos relaciones sanas</b> con las personas que nos rodean. Ya que sino, estaremos en una posición de carencia y de necesidad que va a provocar que mantengamos relaciones amorosas basadas en la dependencia emocional. Este tipo de relaciones son más frecuentes de lo que nos imaginamos. El problema principal en estos vínculos, es que creemos que necesitamos a nuestra pareja para sentirnos bien, para ser felices, y buscamos constantemente su aprobación, su afecto…Esta situación no solamente nos va a generar un malestar sino que también puede provocar que los demás se aprovechen de nuestra vulnerabilidad.\n<br>\n<br>Dicen que <b>para estar en pareja antes hay que saber estar solo</b>. Así es, cuando uno se valora, se acepta y se quiere por encima de todas las cosas, es cuando verdaderamente puede valorar, aceptar y querer a los demás. Empecemos pues, por construirnos una buena base emocional, que sea saludable y en la que nuestra propia valoración no dependa de los demás. <br><br>Apreciarnos más a nosotros mismos, reconocer nuestras capacidades y virtudes, aceptar nuestros defectos y dejar de buscar la aprobación de los demás, va a permitirnos una autonomía emocional que será imprescindible para relacionarnos de forma saludable con nosotros mismos y con el resto.<br></p>\n\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"extСontent\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Number\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Box Color\" name=\"boxbg\" value=\"#ffffff\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efeeee\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#282124\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-12 img-col\">\n                <img src=\"@PROJECT_PATH@/assets/images/image14.jpg\" alt=\"Mobirise\" title>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-success\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>READ MORE</a></div>\n            </div>\n            <div class=\"col-lg-5 title-col align-left\" mbr-if=\"showSubTitle || showTitle \">\n                <div class=\"title-wrap\">\n                    <h3 class=\"number mbr-medium mbr-black pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">03</h3>\n                    <h2 class=\"mbr-section-title mbr-semibold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">El amor de tu vida</h2>\n                </div>\n            </div>\n\n            <div class=\"col-lg-7 text-col align-left\">\n                <p class=\"mbr-text mbr-black mbr-regular mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">¿Quieres conocer el amor de tu vida? ¿La persona perfecta para ti, que te brindará su amor incondicional para siempre? ¿Alguien que te admirará, que se sentirá orgulloso de ti y te amará con todas sus fuerzas? Pues bien, esa persona eres tú.\n<br>\n<br><b>Nadie en el mundo puede quererte más que tu a ti mismo.</b> En el caso de no ser así, seguramente experimentes en tu vida situaciones dolorosas derivadas de la falta de autoestima, como por ejemplo creer que eres inferior al resto o a alguien en concreto, permitir a los demás que no te respeten, no poner límites cuando te sientes lastimado, y un sinfín de problemas más que suelen suceder si no nos damos cuenta de la importancia de tener una adecuada autoestima.\n<br>\n<br><b>Si no empezamos por querernos más a nosotros mismos, es imposible que tengamos relaciones sanas</b> con las personas que nos rodean. Ya que sino, estaremos en una posición de carencia y de necesidad que va a provocar que mantengamos relaciones amorosas basadas en la dependencia emocional. Este tipo de relaciones son más frecuentes de lo que nos imaginamos. El problema principal en estos vínculos, es que creemos que necesitamos a nuestra pareja para sentirnos bien, para ser felices, y buscamos constantemente su aprobación, su afecto…Esta situación no solamente nos va a generar un malestar sino que también puede provocar que los demás se aprovechen de nuestra vulnerabilidad.\n<br>\n<br>Dicen que <b>para estar en pareja antes hay que saber estar solo</b>. Así es, cuando uno se valora, se acepta y se quiere por encima de todas las cosas, es cuando verdaderamente puede valorar, aceptar y querer a los demás. Empecemos pues, por construirnos una buena base emocional, que sea saludable y en la que nuestra propia valoración no dependa de los demás. <br><br>Apreciarnos más a nosotros mismos, reconocer nuestras capacidades y virtudes, aceptar nuestros defectos y dejar de buscar la aprobación de los demás, va a permitirnos una autonomía emocional que será imprescindible para relacionarnos de forma saludable con nosotros mismos y con el resto.<br></p>\n\n            </div>\n\n        </div>\n    </div>\n</section>",
           "_cid": "rZUfpy7ZKV",
           "_anchor": "extContent6-1c",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".icons-block .mbr-iconfont": {
+              "font-size": "1.5rem",
+              "color": "@iconsColor",
+              "opacity": ".5",
+              "&:hover": {
+                "opacity": "1"
+              }
+            },
+            ".links-block ul li": {
+              "margin": "0 1rem"
+            },
+            ".icons-block ul li": {
+              "margin": "0 .5rem"
+            },
+            ".links-block ul, .icons-block ul": {
+              "margin-bottom": "1.5rem"
+            }
+          },
+          "_name": "extFooter10",
+          "_customHTML": "<section class=\"extFooter\" group=\"Additional Blocks\" global=\"\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline=\"\" type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input inline=\"\" type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showTitle\" checked=\"\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#c1c1c1\">\n        <input type=\"color\" title=\"Icons Hover Color\" name=\"iconshoverColor\" value=\"#767676\">\n        <input type=\"color\" title=\"Icons BG Color\" name=\"iconsbgColor\" value=\"#efeeee\">\n        <input inline=\"\" type=\"range\" title=\"Icons\" name=\"iconsCount\" min=\"1\" max=\"8\" step=\"1\" value=\"5\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#efeeee\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&amp;&amp;bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"links-block col-sm-12 col-md-10 align-center pb-3\" mbr-if=\"showLinks\">\n                <ul class=\"list-inline\" mbr-list=\"\" mbr-list-grow=\"linksCount\">\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Home</a>\n                    </li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Menus</a>\n                    </li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Our Story</a>\n                    </li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Chef John Smith</a>\n                    </li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Contacts</a>\n                    </li>\n                </ul>\n            </div>\n            <div class=\"icons-block col-sm-12 col-md-10 align-center\" mbr-if=\"showIcons\">\n                <ul class=\"list-inline\">\n                    <li class=\"list-inline-item\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-facebook socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 1\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-twitter socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 2\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-linkedin socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 3\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-youtube socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 4\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-rss socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 5\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-googleplus socicon\"></span>\n                        </a>\n                    </li>\n                </ul>\n            </div>\n            <div class=\"logo-section col-sm-12 col-lg-4 align-center\" mbr-if=\"showLogo\">\n                <a href=\"#\"><img src=\"@PROJECT_PATH@/assets/images/logo1.png\" height=\"128\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\"></a>\n            </div>\n        </div>\n    </div>\n</section>\n",
+          "_anchor": "extFooter10-5w",
+          "_isUserblock": true,
+          "_sourceTheme": "therapym4",
+          "_cid": "s1CKwkmaFG",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".row": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".text-black": {
+              "font-weight": "800",
+              "letter-spacing": "0.1em"
+            },
+            ".btn": {
+              "margin-bottom": "2rem"
+            },
+            ".mbr-text": {
+              "color": "#444",
+              "font-weight": "600",
+              "letter-spacing": "0.1em"
+            },
+            ".social-list": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "display": "flex",
+              "padding-left": "0",
+              "margin-bottom": "25px",
+              "list-style": "none",
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              ".mbr-iconfont-social": {
+                "font-size": "2rem",
+                "color": "black"
+              },
+              ".soc-item": {
+                "margin": "0 .5rem"
+              },
+              "a": {
+                "margin": "0",
+                "-webkit-transition": ".2s linear",
+                "transition": ".2s linear",
+                "&:hover": {
+                  "opacity": ".4"
+                }
+              },
+              "@media (max-width: 767px)": {
+                "-webkit-justify-content": "center",
+                "justify-content": "center"
+              }
+            },
+            "@media (max-width: 575px)": {
+              ".mbr-text": {
+                "text-align": "center",
+                "margin-bottom": "2rem"
+              }
+            },
+            ".links": {
+              "color": "#232323",
+              "text-align": "center"
+            }
+          },
+          "_name": "extFooter5",
+          "_customHTML": "<section class=\"extFooter\" group=\"Additional Blocks\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Button\" name=\"showButton\">\n        \n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected=\"\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n      \n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f9f295\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&amp;&amp;bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"social-list\" mbr-if=\"iconsCount > 0\">\n                <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                    <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                        <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                    </a>\n                </div>\n                <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                    <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                        <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                    </a>\n                </div>\n                <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                    <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                        <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\"></span>\n                    </a>\n                </div>\n                <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                    <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                        <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-whatsapp socicon\"></span>\n                    </a>\n                </div>\n               <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                    <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                        <span mbr-icon=\"\" class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                    </a>\n                </div>\n                <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                    <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                        <span mbr-icon=\"\" class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                    </a>\n                </div>\n            </div>\n        </div>\n        \n        <div class=\"row\">        \n            <div class=\"col-sm-8\">\n                <div mbr-buttons=\"\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"mbr-section-btn text-center\" mbr-if=\"showButton\">\n                    <a href=\"\" type=\"submit\" class=\"btn btn-warning\">PURCHASE NOW</a>\n                </div>\n                <p class=\"mbr-text links mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".links\">COMPARTE EN TUS REDES SOCIALES</p>\n            </div>\n       </div>\n    </div>\n</section>",
+          "_anchor": "extFooter5-5x",
+          "_isUserblock": true,
+          "_sourceTheme": "therapym4",
+          "_cid": "s1CKA4Vt4G",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -7878,9 +8118,131 @@
             }
           },
           "_name": "extContent6",
-          "_customHTML": "<section class=\"extСontent\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Number\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Box Color\" name=\"boxbg\" value=\"#ffffff\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efeeee\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#282124\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-12 img-col\">\n                <img src=\"@PROJECT_PATH@/assets/images/image36.jpeg\" alt=\"Mobirise\" title>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-success\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>READ MORE</a></div>\n            </div>\n            <div class=\"col-lg-5 title-col align-left\" mbr-if=\"showSubTitle || showTitle \">\n                <div class=\"title-wrap\">\n                    <h3 class=\"number mbr-medium mbr-black pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">03</h3>\n                    <h2 class=\"mbr-section-title mbr-semibold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">¿Cómo nos puede afectar estar sin trabajo?</h2>\n                </div>\n            </div>\n\n            <div class=\"col-lg-7 text-col align-left\">\n                <p class=\"mbr-text mbr-black mbr-regular mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">¿Te preocupa tu incertidumbre laboral? ¿Te sientes perdido y no sabes cómo seguir adelante? En períodos en los que llevamos tiempo sin trabajar, además de problemas económicos, pueden derivar también otras preocupaciones:<br><br>- <b>No sentirse valorado o útil</b>: los seres humanos nos identificamos por la profesión que realizamos, el no tener trabajo nos puede provocar una crisis de identidad. Asimismo nos sentimos realizados al alcanzar metas y objetivos o al producir un bien o servicio para los demás. El hecho de no tener trabajo puede mermar nuestra autoestima y valor propio.\n<br><br>- <b>Sentir que perdemos el tiempo</b>: al trabajar nos mantenemos ocupados y activos física o mentalmente. Cuando no es así, podemos sentir que nuestro tiempo sin trabajar no es valioso y no saber en qué otras tareas invertirlo para que sea productivo.\n<br><br>- <b>Compararse con los demás</b>: pensar que estamos en condiciones inferiores que aquellos que están activos laboralmente o incluso creer que las vidas de otros son mejores que la nuestra. Este factor también puede influir en nuestro estado anímico.\n<br><br>Algunos aspectos a tener en cuenta que nos pueden ayudar:\n<br>\n<br>- Tomar conciencia de que se trata de una <b>situación puntual y de duración determinada</b>. Tener presente que es temporal y que tarde o temprano volveremos a trabajar, nos sitúa en una posición más coherente.<br>\n<br>- <b>Invertir el tiempo necesario</b> para encontrar trabajo. El obsesionarse a todas horas por buscar trabajo no suele ser una opción adecuada. Es mejor organizarse para dedicarle una franja de tiempo diariamente y el resto del día destinarlo a realizar otras actividades.\n<br><br>- <b>Mantenerse activo</b> o bien <b>descansar sin remordimientos</b>. Además de invertir el tiempo en encontrar trabajo, aprovecharlo para realizar actividades que no podríamos hacer si se estuviéramos trabajando: practicar deporte, aprender un nuevo idioma, visitar viejos amigos…o bien simplemente descansar para cargar pilas, ¡se agradecerá cuando se empiece a trabajar de nuevo!\n<br><br>-<b> Plantearse nuevos retos</b>: quizás sea un buen momento para dar un giro a nuestra vida profesional. Emprender un nuevo proyecto, especializarse dentro del sector laboral, encontrar nuevos clientes…apostar por algo nuevo puede dar sus frutos.\n<br><br>- <b>Rodearse de amigos, familia o pareja</b>: el pasar más tiempo con nuestros seres queridos nos ayudará anímicamente a sobrellevar mejor este período.<br></p>\n\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"extСontent\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Number\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Box Color\" name=\"boxbg\" value=\"#ffffff\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efeeee\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#282124\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-12 img-col\">\n                <img src=\"@PROJECT_PATH@/assets/images/image36.jpeg\" alt=\"Mobirise\" title>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-success\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>READ MORE</a></div>\n            </div>\n            <div class=\"col-lg-5 title-col align-left\" mbr-if=\"showSubTitle || showTitle \">\n                <div class=\"title-wrap\">\n                    <h3 class=\"number mbr-medium mbr-black pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">02</h3>\n                    <h2 class=\"mbr-section-title mbr-semibold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">¿Cómo nos puede afectar estar sin trabajo?</h2>\n                </div>\n            </div>\n\n            <div class=\"col-lg-7 text-col align-left\">\n                <p class=\"mbr-text mbr-black mbr-regular mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">¿Te preocupa tu incertidumbre laboral? ¿Te sientes perdido y no sabes cómo seguir adelante? En períodos en los que llevamos tiempo sin trabajar, además de problemas económicos, pueden derivar también otras preocupaciones:<br><br>- <b>No sentirse valorado o útil</b>: los seres humanos nos identificamos por la profesión que realizamos, el no tener trabajo nos puede provocar una crisis de identidad. Asimismo nos sentimos realizados al alcanzar metas y objetivos o al producir un bien o servicio para los demás. El hecho de no tener trabajo puede mermar nuestra autoestima y valor propio.\n<br><br>- <b>Sentir que perdemos el tiempo</b>: al trabajar nos mantenemos ocupados y activos física o mentalmente. Cuando no es así, podemos sentir que nuestro tiempo sin trabajar no es valioso y no saber en qué otras tareas invertirlo para que sea productivo.\n<br><br>- <b>Compararse con los demás</b>: pensar que estamos en condiciones inferiores que aquellos que están activos laboralmente o incluso creer que las vidas de otros son mejores que la nuestra. Este factor también puede influir en nuestro estado anímico.\n<br><br>Algunos aspectos a tener en cuenta que nos pueden ayudar:\n<br>\n<br>- Tomar conciencia de que se trata de una <b>situación puntual y de duración determinada</b>. Tener presente que es temporal y que tarde o temprano volveremos a trabajar, nos sitúa en una posición más coherente.<br>\n<br>- <b>Invertir el tiempo necesario</b> para encontrar trabajo. El obsesionarse a todas horas por buscar trabajo no suele ser una opción adecuada. Es mejor organizarse para dedicarle una franja de tiempo diariamente y el resto del día destinarlo a realizar otras actividades.\n<br><br>- <b>Mantenerse activo</b> o bien <b>descansar sin remordimientos</b>. Además de invertir el tiempo en encontrar trabajo, aprovecharlo para realizar actividades que no podríamos hacer si se estuviéramos trabajando: practicar deporte, aprender un nuevo idioma, visitar viejos amigos…o bien simplemente descansar para cargar pilas, ¡se agradecerá cuando se empiece a trabajar de nuevo!\n<br><br>-<b> Plantearse nuevos retos</b>: quizás sea un buen momento para dar un giro a nuestra vida profesional. Emprender un nuevo proyecto, especializarse dentro del sector laboral, encontrar nuevos clientes…apostar por algo nuevo puede dar sus frutos.\n<br><br>- <b>Rodearse de amigos, familia o pareja</b>: el pasar más tiempo con nuestros seres queridos nos ayudará anímicamente a sobrellevar mejor este período.<br></p>\n\n            </div>\n\n        </div>\n    </div>\n</section>",
           "_cid": "s148OSAjCq",
           "_anchor": "extContent6-40",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".icons-block .mbr-iconfont": {
+              "font-size": "1.5rem",
+              "color": "@iconsColor",
+              "opacity": ".5",
+              "&:hover": {
+                "opacity": "1"
+              }
+            },
+            ".links-block ul li": {
+              "margin": "0 1rem"
+            },
+            ".icons-block ul li": {
+              "margin": "0 .5rem"
+            },
+            ".links-block ul, .icons-block ul": {
+              "margin-bottom": "1.5rem"
+            }
+          },
+          "_name": "extFooter10",
+          "_customHTML": "<section class=\"extFooter\" group=\"Additional Blocks\" global=\"\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline=\"\" type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input inline=\"\" type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showTitle\" checked=\"\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#c1c1c1\">\n        <input type=\"color\" title=\"Icons Hover Color\" name=\"iconshoverColor\" value=\"#767676\">\n        <input type=\"color\" title=\"Icons BG Color\" name=\"iconsbgColor\" value=\"#efeeee\">\n        <input inline=\"\" type=\"range\" title=\"Icons\" name=\"iconsCount\" min=\"1\" max=\"8\" step=\"1\" value=\"5\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#efeeee\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&amp;&amp;bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"links-block col-sm-12 col-md-10 align-center pb-3\" mbr-if=\"showLinks\">\n                <ul class=\"list-inline\" mbr-list=\"\" mbr-list-grow=\"linksCount\">\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Home</a>\n                    </li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Menus</a>\n                    </li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Our Story</a>\n                    </li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Chef John Smith</a>\n                    </li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Contacts</a>\n                    </li>\n                </ul>\n            </div>\n            <div class=\"icons-block col-sm-12 col-md-10 align-center\" mbr-if=\"showIcons\">\n                <ul class=\"list-inline\">\n                    <li class=\"list-inline-item\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-facebook socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 1\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-twitter socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 2\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-linkedin socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 3\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-youtube socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 4\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-rss socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 5\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-googleplus socicon\"></span>\n                        </a>\n                    </li>\n                </ul>\n            </div>\n            <div class=\"logo-section col-sm-12 col-lg-4 align-center\" mbr-if=\"showLogo\">\n                <a href=\"#\"><img src=\"@PROJECT_PATH@/assets/images/logo1.png\" height=\"128\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\"></a>\n            </div>\n        </div>\n    </div>\n</section>\n",
+          "_anchor": "extFooter10-5v",
+          "_isUserblock": true,
+          "_sourceTheme": "therapym4",
+          "_cid": "s1CKq6WbWm",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".row": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".text-black": {
+              "font-weight": "800",
+              "letter-spacing": "0.1em"
+            },
+            ".btn": {
+              "margin-bottom": "2rem"
+            },
+            ".mbr-text": {
+              "color": "#444",
+              "font-weight": "600",
+              "letter-spacing": "0.1em"
+            },
+            ".social-list": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "display": "flex",
+              "padding-left": "0",
+              "margin-bottom": "25px",
+              "list-style": "none",
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              ".mbr-iconfont-social": {
+                "font-size": "2rem",
+                "color": "black"
+              },
+              ".soc-item": {
+                "margin": "0 .5rem"
+              },
+              "a": {
+                "margin": "0",
+                "-webkit-transition": ".2s linear",
+                "transition": ".2s linear",
+                "&:hover": {
+                  "opacity": ".4"
+                }
+              },
+              "@media (max-width: 767px)": {
+                "-webkit-justify-content": "center",
+                "justify-content": "center"
+              }
+            },
+            "@media (max-width: 575px)": {
+              ".mbr-text": {
+                "text-align": "center",
+                "margin-bottom": "2rem"
+              }
+            },
+            ".links": {
+              "color": "#232323",
+              "text-align": "center"
+            }
+          },
+          "_name": "extFooter5",
+          "_customHTML": "<section class=\"extFooter\" group=\"Additional Blocks\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Button\" name=\"showButton\">\n        \n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected=\"\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n      \n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f9f295\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&amp;&amp;bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"social-list\" mbr-if=\"iconsCount > 0\">\n                <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                    <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                        <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                    </a>\n                </div>\n                <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                    <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                        <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                    </a>\n                </div>\n                <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                    <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                        <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\"></span>\n                    </a>\n                </div>\n                <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                    <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                        <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-whatsapp socicon\"></span>\n                    </a>\n                </div>\n               <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                    <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                        <span mbr-icon=\"\" class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                    </a>\n                </div>\n                <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                    <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                        <span mbr-icon=\"\" class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                    </a>\n                </div>\n            </div>\n        </div>\n        \n        <div class=\"row\">        \n            <div class=\"col-sm-8\">\n                <div mbr-buttons=\"\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"mbr-section-btn text-center\" mbr-if=\"showButton\">\n                    <a href=\"\" type=\"submit\" class=\"btn btn-warning\">PURCHASE NOW</a>\n                </div>\n                <p class=\"mbr-text links mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".links\">COMPARTE EN TUS REDES SOCIALES</p>\n            </div>\n       </div>\n    </div>\n</section>",
+          "_anchor": "extFooter5-5u",
+          "_isUserblock": true,
+          "_sourceTheme": "therapym4",
+          "_cid": "s1CKdLTjxT",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -8535,6 +8897,128 @@
           "_isSecondary": true,
           "typeCompatible": "type",
           "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".icons-block .mbr-iconfont": {
+              "font-size": "1.5rem",
+              "color": "@iconsColor",
+              "opacity": ".5",
+              "&:hover": {
+                "opacity": "1"
+              }
+            },
+            ".links-block ul li": {
+              "margin": "0 1rem"
+            },
+            ".icons-block ul li": {
+              "margin": "0 .5rem"
+            },
+            ".links-block ul, .icons-block ul": {
+              "margin-bottom": "1.5rem"
+            }
+          },
+          "_name": "extFooter10",
+          "_customHTML": "<section class=\"extFooter\" group=\"Additional Blocks\" global=\"\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline=\"\" type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input inline=\"\" type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showTitle\" checked=\"\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#c1c1c1\">\n        <input type=\"color\" title=\"Icons Hover Color\" name=\"iconshoverColor\" value=\"#767676\">\n        <input type=\"color\" title=\"Icons BG Color\" name=\"iconsbgColor\" value=\"#efeeee\">\n        <input inline=\"\" type=\"range\" title=\"Icons\" name=\"iconsCount\" min=\"1\" max=\"8\" step=\"1\" value=\"5\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#efeeee\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&amp;&amp;bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"links-block col-sm-12 col-md-10 align-center pb-3\" mbr-if=\"showLinks\">\n                <ul class=\"list-inline\" mbr-list=\"\" mbr-list-grow=\"linksCount\">\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Home</a>\n                    </li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Menus</a>\n                    </li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Our Story</a>\n                    </li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Chef John Smith</a>\n                    </li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Contacts</a>\n                    </li>\n                </ul>\n            </div>\n            <div class=\"icons-block col-sm-12 col-md-10 align-center\" mbr-if=\"showIcons\">\n                <ul class=\"list-inline\">\n                    <li class=\"list-inline-item\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-facebook socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 1\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-twitter socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 2\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-linkedin socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 3\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-youtube socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 4\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-rss socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 5\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-googleplus socicon\"></span>\n                        </a>\n                    </li>\n                </ul>\n            </div>\n            <div class=\"logo-section col-sm-12 col-lg-4 align-center\" mbr-if=\"showLogo\">\n                <a href=\"#\"><img src=\"@PROJECT_PATH@/assets/images/logo1.png\" height=\"128\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\"></a>\n            </div>\n        </div>\n    </div>\n</section>\n",
+          "_anchor": "extFooter10-5y",
+          "_isUserblock": true,
+          "_sourceTheme": "therapym4",
+          "_cid": "s1CKJG3VSa",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".row": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".text-black": {
+              "font-weight": "800",
+              "letter-spacing": "0.1em"
+            },
+            ".btn": {
+              "margin-bottom": "2rem"
+            },
+            ".mbr-text": {
+              "color": "#444",
+              "font-weight": "600",
+              "letter-spacing": "0.1em"
+            },
+            ".social-list": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "display": "flex",
+              "padding-left": "0",
+              "margin-bottom": "25px",
+              "list-style": "none",
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              ".mbr-iconfont-social": {
+                "font-size": "2rem",
+                "color": "black"
+              },
+              ".soc-item": {
+                "margin": "0 .5rem"
+              },
+              "a": {
+                "margin": "0",
+                "-webkit-transition": ".2s linear",
+                "transition": ".2s linear",
+                "&:hover": {
+                  "opacity": ".4"
+                }
+              },
+              "@media (max-width: 767px)": {
+                "-webkit-justify-content": "center",
+                "justify-content": "center"
+              }
+            },
+            "@media (max-width: 575px)": {
+              ".mbr-text": {
+                "text-align": "center",
+                "margin-bottom": "2rem"
+              }
+            },
+            ".links": {
+              "color": "#232323",
+              "text-align": "center"
+            }
+          },
+          "_name": "extFooter5",
+          "_customHTML": "<section class=\"extFooter\" group=\"Additional Blocks\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Button\" name=\"showButton\">\n        \n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n      \n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f9f295\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"social-list\" mbr-if=\"iconsCount > 0\">\n                <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                    <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                        <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span>\n                    </a>\n                </div>\n                <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                    <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                        <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                    </a>\n                </div>\n                <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                    <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                        <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span>\n                    </a>\n                </div>\n                <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                    <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                        <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-whatsapp socicon\" style=\"color: rgb(0, 0, 0); fill: rgb(0, 0, 0);\"></span>\n                    </a>\n                </div>\n               <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                    <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                        <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                    </a>\n                </div>\n                <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                    <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                        <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                    </a>\n                </div>\n            </div>\n        </div>\n        \n        <div class=\"row\">        \n            <div class=\"col-sm-8\">\n                <div mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"mbr-section-btn text-center\" mbr-if=\"showButton\">\n                    <a href type=\"submit\" class=\"btn btn-warning\">PURCHASE NOW</a>\n                </div>\n                <p class=\"mbr-text links mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".links\">COMPARTE EN TUS REDES SOCIALES</p>\n            </div>\n       </div>\n    </div>\n</section>",
+          "_anchor": "extFooter5-5z",
+          "_isUserblock": true,
+          "_sourceTheme": "therapym4",
+          "_cid": "s1CKM3GqfB",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 15px)",
               "padding-bottom": "(@paddingBottom * 15px)"
@@ -9172,6 +9656,128 @@
           "_isUserblock": true,
           "_sourceTheme": "therapym4",
           "_cid": "s1iUXVCOtt",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".icons-block .mbr-iconfont": {
+              "font-size": "1.5rem",
+              "color": "@iconsColor",
+              "opacity": ".5",
+              "&:hover": {
+                "opacity": "1"
+              }
+            },
+            ".links-block ul li": {
+              "margin": "0 1rem"
+            },
+            ".icons-block ul li": {
+              "margin": "0 .5rem"
+            },
+            ".links-block ul, .icons-block ul": {
+              "margin-bottom": "1.5rem"
+            }
+          },
+          "_name": "extFooter10",
+          "_customHTML": "<section class=\"extFooter\" group=\"Additional Blocks\" global=\"\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline=\"\" type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input inline=\"\" type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showTitle\" checked=\"\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#c1c1c1\">\n        <input type=\"color\" title=\"Icons Hover Color\" name=\"iconshoverColor\" value=\"#767676\">\n        <input type=\"color\" title=\"Icons BG Color\" name=\"iconsbgColor\" value=\"#efeeee\">\n        <input inline=\"\" type=\"range\" title=\"Icons\" name=\"iconsCount\" min=\"1\" max=\"8\" step=\"1\" value=\"5\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#efeeee\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&amp;&amp;bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"links-block col-sm-12 col-md-10 align-center pb-3\" mbr-if=\"showLinks\">\n                <ul class=\"list-inline\" mbr-list=\"\" mbr-list-grow=\"linksCount\">\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Home</a>\n                    </li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Menus</a>\n                    </li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Our Story</a>\n                    </li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Chef John Smith</a>\n                    </li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text=\"\" mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">\n                        <a href=\"#\" class=\"text-warning\">Contacts</a>\n                    </li>\n                </ul>\n            </div>\n            <div class=\"icons-block col-sm-12 col-md-10 align-center\" mbr-if=\"showIcons\">\n                <ul class=\"list-inline\">\n                    <li class=\"list-inline-item\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-facebook socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 1\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-twitter socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 2\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-linkedin socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 3\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-youtube socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 4\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-rss socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 5\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont socicon-googleplus socicon\"></span>\n                        </a>\n                    </li>\n                </ul>\n            </div>\n            <div class=\"logo-section col-sm-12 col-lg-4 align-center\" mbr-if=\"showLogo\">\n                <a href=\"#\"><img src=\"@PROJECT_PATH@/assets/images/logo1.png\" height=\"128\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\"></a>\n            </div>\n        </div>\n    </div>\n</section>\n",
+          "_anchor": "extFooter10-60",
+          "_isUserblock": true,
+          "_sourceTheme": "therapym4",
+          "_cid": "s1CLTlL6KD",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".row": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".text-black": {
+              "font-weight": "800",
+              "letter-spacing": "0.1em"
+            },
+            ".btn": {
+              "margin-bottom": "2rem"
+            },
+            ".mbr-text": {
+              "color": "#444",
+              "font-weight": "600",
+              "letter-spacing": "0.1em"
+            },
+            ".social-list": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "display": "flex",
+              "padding-left": "0",
+              "margin-bottom": "25px",
+              "list-style": "none",
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              ".mbr-iconfont-social": {
+                "font-size": "2rem",
+                "color": "black"
+              },
+              ".soc-item": {
+                "margin": "0 .5rem"
+              },
+              "a": {
+                "margin": "0",
+                "-webkit-transition": ".2s linear",
+                "transition": ".2s linear",
+                "&:hover": {
+                  "opacity": ".4"
+                }
+              },
+              "@media (max-width: 767px)": {
+                "-webkit-justify-content": "center",
+                "justify-content": "center"
+              }
+            },
+            "@media (max-width: 575px)": {
+              ".mbr-text": {
+                "text-align": "center",
+                "margin-bottom": "2rem"
+              }
+            },
+            ".links": {
+              "color": "#232323",
+              "text-align": "center"
+            }
+          },
+          "_name": "extFooter5",
+          "_customHTML": "<section class=\"extFooter\" group=\"Additional Blocks\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Button\" name=\"showButton\">\n        \n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected=\"\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n      \n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f9f295\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&amp;&amp;bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"social-list\" mbr-if=\"iconsCount > 0\">\n                <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                    <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                        <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                    </a>\n                </div>\n                <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                    <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                        <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                    </a>\n                </div>\n                <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                    <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                        <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\"></span>\n                    </a>\n                </div>\n                <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                    <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                        <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-whatsapp socicon\"></span>\n                    </a>\n                </div>\n               <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                    <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                        <span mbr-icon=\"\" class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                    </a>\n                </div>\n                <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                    <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                        <span mbr-icon=\"\" class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                    </a>\n                </div>\n            </div>\n        </div>\n        \n        <div class=\"row\">        \n            <div class=\"col-sm-8\">\n                <div mbr-buttons=\"\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"mbr-section-btn text-center\" mbr-if=\"showButton\">\n                    <a href=\"\" type=\"submit\" class=\"btn btn-warning\">PURCHASE NOW</a>\n                </div>\n                <p class=\"mbr-text links mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".links\">COMPARTE EN TUS REDES SOCIALES</p>\n            </div>\n       </div>\n    </div>\n</section>",
+          "_anchor": "extFooter5-61",
+          "_isUserblock": true,
+          "_sourceTheme": "therapym4",
+          "_cid": "s1CLWMzySs",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
